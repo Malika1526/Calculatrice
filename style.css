@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+   
+    background: linear-gradient(to right,#231942, #5E548E, #9F86C0, #BE95C4, #E0B1CB);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    left: 40%;
+    margin-top: 190px;
+}
+
+h2{
+    padding-top: 15px;
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 6rem;
+    position: absolute;
+    text-shadow: -15px 5px 20px #ced0d3;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #231942;
+    text-shadow: 5px 5px 0px #5E548E, 
+      10px 10px 0px #9F86C0, 
+      15px 15px 0px  #BE95C4, 
+      20px 20px 0px #E0B1CB, 
+      30px 30px 0px #E0B1CB;
+}
+.container {
+ 
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #231942; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9; 
+}
+
+/* Écran*/
+.resultat {
+    width: auto; 
+    height: 100px; 
+    font-size: 32px; 
+    text-align: right; 
+    margin-bottom: 20px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #e9ecef;
+    color: #231942;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    color: #fff; 
+    background-color: #5E548E; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+button:hover {
+    background-color: #9F86C0;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
