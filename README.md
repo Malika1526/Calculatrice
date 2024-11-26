@@ -10,5 +10,5 @@ Effacer le dernier chiffre (c)<br>
 Réinitialiser la calculatrice (ac)<br>
 Calculer le résultat (=)<br><br>
 
-Améliorations Possibles<br><br>
+<strong>Améliorations Possibles</strong><br><br>
 Ajouter des fonctionnalités avancées comme les pourcentages et les racines carrées.
